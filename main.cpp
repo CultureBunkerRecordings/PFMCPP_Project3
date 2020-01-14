@@ -51,14 +51,14 @@ struct CarWash            //1) a U.D.T. with a random number of member variables
  */
 struct Animal
 {
-    bool hasTail;
-    int numLegs;
-    float length;
-    float width;
+    bool hasTail = true;
+    int numLegs = 4;
+    float length = 2.5;
+    float width = 1.2;
     struct Mammal
     {
-        bool hasChild;
-        int numberOfStomachs;
+        bool hasChild = true;
+        int numberOfStomachs = 7;
     };
     void putAnimalIn(CarWash wash);
 };
@@ -68,12 +68,11 @@ struct Animal
 
 struct House
 {
-    bool hasChimney;
-    int numBathrooms;
-    int numWindows;
-    float price;
+    bool hasChimney = false;
+    int numBathrooms = 4;
+    int numWindows = 2;;
+    float price = 100000;
     bool doesItComeWithPet(Animal pet);
-
 };
 /*
  3)
@@ -81,15 +80,14 @@ struct House
 
 struct Alphabet
 {
-    int numCharacters;
-    char letter;
-    int scrabbleScore;
+    int numCharacters = 26;
+    char letter = 'a';
+    int scrabbleScore = 4;
     struct Word
     {
-        int numLetters;
-        char firstLetter;
+        int numLetters = 6;
+        char firstLetter = 't';
     };
-    
 };
 
 /*
@@ -98,9 +96,9 @@ struct Alphabet
 
 struct Counter
 {
-    int num;
-    double timeTaken;
-    bool isRunning;
+    int num = 2;
+    double timeTaken = 2.45;
+    bool isRunning = true;
 };
 /*
  5)
@@ -108,10 +106,10 @@ struct Counter
 
 struct CheeseType
 {
-    int numberOfHoles;
-    float weight;
-    float smellScore;
-    bool isCheddar;
+    int numberOfHoles = 34;
+    float weight = 2.6;
+    float smellScore = 10;
+    bool isCheddar = false;
 };
 /*
  6)
@@ -119,10 +117,10 @@ struct CheeseType
 
 struct Face
 {
-    int numEyes;
-    float lengthTeeth;
-    bool isHappy;
-    double timeSinceShave;
+    int numEyes = 4;
+    float lengthTeeth = 45;
+    bool isHappy = true;
+    double timeSinceShave = 23457.6;
 };
 /*
  7)
@@ -130,9 +128,9 @@ struct Face
 
 struct Money
 {
-    bool isStirling;
-    float howMuch;
-    int howManyCoins;
+    bool isStirling = true;
+    float howMuch = 254.00;
+    int howManyCoins = 20;
 };
 /*
  8)
@@ -140,9 +138,9 @@ struct Money
 
 struct FancyDress
 {
-    float costOfHire;
-    bool isGood;
-    int styleScore;
+    float costOfHire = 45;
+    bool isGood = false;
+    int styleScore = 2;
 
 };
 /*
@@ -151,10 +149,10 @@ struct FancyDress
 
 struct Cat
 {
-    int furGrade;
-    float lengthOfTail;
-    int VolumeOfMeow;
-    bool isScratchy;
+    int furGrade = 8;
+    float lengthOfTail = 2.67;
+    int VolumeOfMeow = 10;
+    bool isScratchy = tru;
 };
 /*
  10)
