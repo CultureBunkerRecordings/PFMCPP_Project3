@@ -53,8 +53,8 @@ struct Animal
 {
     bool hasTail = true;
     int numLegs = 4;
-    float length = 2.5;
-    float width = 1.2;
+    float length = 2.5f;
+    float width = 1.2f;
     struct Mammal
     {
         bool hasChild = true;
@@ -70,7 +70,7 @@ struct House
 {
     bool hasChimney = false;
     int numBathrooms = 4;
-    int numWindows = 2;;
+    int numWindows = 2;
     float price = 100000;
     bool doesItComeWithPet(Animal pet);
 };
@@ -107,7 +107,7 @@ struct Counter
 struct CheeseType
 {
     int numberOfHoles = 34;
-    float weight = 2.6;
+    float weight = 2.6f;
     float smellScore = 10;
     bool isCheddar = false;
 };
@@ -150,9 +150,9 @@ struct FancyDress
 struct Cat
 {
     int furGrade = 8;
-    float lengthOfTail = 2.67;
+    float lengthOfTail = 2.67f;
     int VolumeOfMeow = 10;
-    bool isScratchy = tru;
+    bool isScratchy = true;
 };
 /*
  10)
