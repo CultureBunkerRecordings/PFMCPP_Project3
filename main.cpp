@@ -49,43 +49,124 @@ struct CarWash            //1) a U.D.T. with a random number of member variables
 /*
  1)
  */
-
+struct Animal
+{
+    bool hasTail;
+    int numLegs;
+    float length;
+    float width;
+    struct Mammal
+    {
+        bool hasChild;
+        int numberOfStomachs;
+    };
+    void putAnimalIn(CarWash wash);
+};
 /*
  2)
  */
 
+struct House
+{
+    bool hasChimney;
+    int numBathrooms;
+    int numWindows;
+    float price;
+    bool doesItComeWithPet(Animal pet);
+
+};
 /*
  3)
  */
+
+struct Alphabet
+{
+    int numCharacters;
+    char letter;
+    int scrabbleScore;
+    struct Word
+    {
+        int numLetters;
+        char firstLetter;
+    };
+    
+};
 
 /*
  4)
  */
 
+struct Counter
+{
+    int num;
+    double timeTaken;
+    bool isRunning;
+};
 /*
  5)
  */
 
+struct CheeseType
+{
+    int numberOfHoles;
+    float weight;
+    float smellScore;
+    bool isCheddar;
+};
 /*
  6)
  */
 
+struct Face
+{
+    int numEyes;
+    float lengthTeeth;
+    bool isHappy;
+    double timeSinceShave;
+};
 /*
  7)
  */
 
+struct Money
+{
+    bool isStirling;
+    float howMuch;
+    int howManyCoins;
+};
 /*
  8)
  */
 
+struct FancyDress
+{
+    float costOfHire;
+    bool isGood;
+    int styleScore;
+
+};
 /*
  9)
  */
 
+struct Cat
+{
+    int furGrade;
+    float lengthOfTail;
+    int VolumeOfMeow;
+    bool isScratchy;
+};
 /*
  10)
  */
 
+struct Types
+{
+    Cat meow;
+    FancyDress fancy;
+    Money cash;
+    
+};
 #include <iostream>
 int main()
 {
