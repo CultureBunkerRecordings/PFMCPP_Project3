@@ -103,6 +103,7 @@ struct Counter
     int num = 2;
     double timeTaken = 2.45;
     bool isRunning = true;
+    FIXME  3) add a couple member functions.  
 };
 /*
  5)
@@ -114,6 +115,7 @@ struct CheeseType
     float weight = 2.6f;
     float smellScore = 10;
     bool isCheddar = false;
+    FIXME  3) add a couple member functions.  
 };
 /*
  6)
@@ -125,6 +127,7 @@ struct Face
     float lengthTeeth = 45;
     bool isHappy = true;
     double timeSinceShave = 23457.6;
+    FIXME  3) add a couple member functions.  
 };
 /*
  7)
@@ -135,6 +138,7 @@ struct Money
     bool isStirling = true;
     float howMuch = 254.00;
     int howManyCoins = 20;
+    FIXME  3) add a couple member functions.  
 };
 /*
  8)
@@ -145,6 +149,7 @@ struct FancyDress
     float costOfHire = 45;
     bool isGood = false;
     int styleScore = 2;
+    FIXME  3) add a couple member functions.  
 };
 /*
  9)
@@ -156,6 +161,7 @@ struct Cat
     float lengthOfTail = 2.67f;
     int VolumeOfMeow = 10;
     bool isScratchy = true;
+    FIXME  3) add a couple member functions.  
 };
 /*
  10)
@@ -166,7 +172,9 @@ struct Types
     Cat meow;
     FancyDress fancy;
     Money cash; 
+    FIXME  3) add a couple member functions.  
 };
+
 #include <iostream>
 int main()
 {
