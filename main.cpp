@@ -52,14 +52,16 @@ struct CarWash            //1) a U.D.T. with a random number of member variables
 struct Animal
 {
     bool hasTail = true;
-    int numLegs = 4;
+    unsigned int numLegs = 4;
     float length = 2.5f;
     float width = 1.2f;
+
     struct Mammal
     {
         bool hasChild = true;
         int numberOfStomachs = 7;
     };
+
     void putAnimalIn(CarWash wash);
 };
 /*
@@ -72,6 +74,7 @@ struct House
     int numBathrooms = 4;
     int numWindows = 2;
     float price = 100000;
+
     bool doesItComeWithPet(Animal pet);
 };
 /*
@@ -83,6 +86,7 @@ struct Alphabet
     int numCharacters = 26;
     char letter = 'a';
     int scrabbleScore = 4;
+
     struct Word
     {
         int numLetters = 6;
@@ -141,7 +145,6 @@ struct FancyDress
     float costOfHire = 45;
     bool isGood = false;
     int styleScore = 2;
-
 };
 /*
  9)
@@ -162,8 +165,7 @@ struct Types
 {
     Cat meow;
     FancyDress fancy;
-    Money cash;
-    
+    Money cash; 
 };
 #include <iostream>
 int main()
